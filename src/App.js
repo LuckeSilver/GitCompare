@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!!</h1>
-    </div>
-  );
-}
+import "./styles/global";
+
+import Main from "./pages/Main";
+
+const App = () => <Main />;
+
+export default App;
