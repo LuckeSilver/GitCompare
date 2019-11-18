@@ -11,7 +11,7 @@ const CompareList = () => (
 
       <ul>
         <li>
-          95.019 <small>stars</small>
+          96.019 <small>stars</small>
         </li>
         <li>
           95.019 <small>forks</small>
