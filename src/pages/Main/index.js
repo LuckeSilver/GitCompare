@@ -1,23 +1,19 @@
 import React from "react";
 
-import logo from '../assets/logo.png';
-import styled from 'styled-components';
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px;
-`;
+import logo from '../../assets/logo.png';
+import { Container, Form } from './styles';
+import CompareList from '../../components/CompareList';
 
 const Main = () => (
   <Container>
     <img src={logo} alt="Logo GitHub Compare" />
 
-    <form>
+    <Form>
       <input type="text" placeholder="Usuário / Repositório" />
       <button type="submit">OK</button>
-    </form>
+    </Form>
+
+    <CompareList />
   </Container>
 );
 
